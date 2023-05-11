@@ -1,7 +1,6 @@
 # Logic-Programming-Prolog ~ 
 Solved Exercises from the Kapodistrian University of Athens (DIT - UOA )in the course Logic Programming 2023.
 
-The first 3 exercises (pancakes, assignment, crossword) are in the 1st pdf.
 
 To Run pancakes.pl use : ``` pancakes_dfs([3, 2, 4, 1], Operators, States).```
 
