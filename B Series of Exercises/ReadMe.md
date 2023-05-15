@@ -12,10 +12,10 @@ The object of this exercise is not to solve the problem of the maximum satisfiab
 
 To run the code use : ```maxsat(NV, NC, D, F, S, M).``` example : ```seed(7777), maxsat(30, 100, 15, F, S, M).```, where : 
 
-NV = Sum of Variables.
-NC = Sum of Sentence.
-D  = Sentence Density.
-F  = The formula returned by create_formula
-S  = Τhe solution, as a list of 1 and 0 (1 = true, 0 = false).
-M  = Τhe (optimal) number of propositions of the type that are true.
+### NV ### = Sum of Variables. <br>
+NC = Sum of Sentence. <br>
+D  = Sentence Density. <br>
+F  = The formula returned by create_formula <br>
+S  = Τhe solution, as a list of 1 and 0 (1 = true, 0 = false). <br>
+M  = Τhe (optimal) number of propositions of the type that are true. <br>
 
