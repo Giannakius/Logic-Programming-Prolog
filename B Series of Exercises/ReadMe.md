@@ -19,3 +19,13 @@ F  = The formula returned by create_formula <br>
 S  = Τhe solution, as a list of 1 and 0 (1 = true, 0 = false). <br>
 M  = Τhe (optimal) number of propositions of the type that are true. <br>
 
+
+
+## Skyscr.pl :
+In this exercise you are asked to solve through constrained programming various instances, of varying difficulty, of the skyscraper puzzle (https://www.puzzle-skyscrapers.com/). In this puzzle, we have a square grid of dimension N, in each cell of which a skyscraper of integer height from 1 to N must be placed, so that in each row and column of the grid no two skyscrapers have the same height. Also, at the ends of the rows and columns of the grid (in all or only some of them) some integers are given that limit the number of skyscrapers that are visible from this point along the entire length of the row or column to the end her. It is believed that a skyscraper hides all those who they are behind him and are shorter in height. Finally, it is possible that some of the grid cells are already populated from the beginning.
+
+To run the code use : ```skyscr(PuzzleId, Solution).``` example : ```skyscr(demo, Solution).```, where : 
+
+PuzzleId = Puzzle Id to solve , there is ready puzzles in skyscr_data.pl file. <br>
+Solution = Solution of the Puzzle. <br>
+
